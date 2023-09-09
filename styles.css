@@ -1,0 +1,100 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#invoice {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+#invoice table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#invoice th,
+#invoice td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+#invoice th {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+/* Same CSS styles as before */
+
+.product {
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product .form-group {
+    margin-bottom: 10px;
+}
+
+#add-product {
+    background-color: #3498db;
+}
+
+#add-product:hover {
+    background-color: #2980b9;
+}
